@@ -13,9 +13,7 @@ const valid = lines
 
     const numOfLetters = password.split("").filter(x => x == letter);
 
-    return numOfLetters.length >= policy[0] && numOfLetters.length <= policy[1]
-      ? true
-      : false;
+    return numOfLetters.length >= policy[0] && numOfLetters.length <= policy[1];
   });
 
 console.log(valid.length);
