@@ -1,7 +1,6 @@
 const lines = require("../filereader.js").readFile("\n", false);
 
 let index = 1;
-let treesHit = 0;
 
 const result = lines
   .slice(1)
